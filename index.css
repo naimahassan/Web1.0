@@ -1,0 +1,41 @@
+body {
+
+}
+
+.flag {
+  background-image: url('./img/codepage.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 700px;
+}
+
+.container-fluid{
+  background-color: #F15A29;
+  opacity: 0.8;
+  background-blend-mode: lighten;
+  height: 700px;
+}
+
+.overlay {
+  height: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: #F15A29;
+    overflow-y: hidden;
+  transition: 0.5s;
+}
+
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 45px;
+}
+
