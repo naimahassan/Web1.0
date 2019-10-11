@@ -25,7 +25,7 @@ body {
   left: 0;
   top: 0;
   background-color: #F15A29;
-    overflow-y: hidden;
+  overflow-y: hidden;
   transition: 0.5s;
 }
 
